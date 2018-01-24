@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<dict>
+		<key>BehaviorEvents</key>
+		<array>
+			<dict>
+				<key>BehaviorType</key>
+				<string>2</string>
+				<key>BehaviorEventId</key>
+				<string>upload</string>
+				<key>BehaviorPageId</key>
+				<string>ViewController</string>
+				<key>BehaviorEventSelectorName</key>
+				<string>upLoadPic</string>
+				<key>BehaviorEventDesc</key>
+				<string>模拟IO</string>
+				<key>BehaviorParameter</key>
+				<array>
+					<string>vc1Str</string>
+				</array>
+			</dict>
+			<dict>
+				<key>BehaviorType</key>
+				<string>1</string>
+				<key>BehaviorEventId</key>
+				<string>push</string>
+				<key>BehaviorPageId</key>
+				<string>ViewController</string>
+				<key>BehaviorEventSelectorName</key>
+				<string>pushEvent:</string>
+				<key>BehaviorEventDesc</key>
+				<string>push页面</string>
+			</dict>
+		</array>
+	</dict>
+	<key>VC2View</key>
+	<dict>
+		<key>BehaviorEvents</key>
+		<array>
+			<dict>
+				<key>BehaviorType</key>
+				<string>1</string>
+				<key>BehaviorParameter</key>
+				<array>
+					<string>str</string>
+					<string>arr</string>
+				</array>
+				<key>BehaviorEventId</key>
+				<string>btn_click</string>
+				<key>BehaviorPageId</key>
+				<string>VC2View</string>
+				<key>BehaviorEventSelectorName</key>
+				<string>btnClick</string>
+				<key>BehaviorEventDesc</key>
+				<string>子View上btn点击事件</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F0AB02B2018505F00530068 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AB0292018505F00530068 /* Aspects.m */; };
+		5F0AB0312018524F00530068 /* NSObject+KTAspectsHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AB0302018524F00530068 /* NSObject+KTAspectsHook.m */; };
+		5F0AB033201869CC00530068 /* KtBehaviorDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F0AB032201869CC00530068 /* KtBehaviorDemo.plist */; };
+		5F0AB03620186D3900530068 /* VC2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0AB03520186D3900530068 /* VC2View.m */; };
+		5F1AFCB82015E13400502EAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCB72015E13400502EAD /* AppDelegate.m */; };
+		5F1AFCBB2015E13400502EAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCBA2015E13400502EAD /* ViewController.m */; };
+		5F1AFCBE2015E13400502EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1AFCBC2015E13400502EAD /* Main.storyboard */; };
+		5F1AFCC02015E13400502EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1AFCBF2015E13400502EAD /* Assets.xcassets */; };
+		5F1AFCC32015E13400502EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1AFCC12015E13400502EAD /* LaunchScreen.storyboard */; };
+		5F1AFCC62015E13400502EAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCC52015E13400502EAD /* main.m */; };
+		5F1AFCD02015E13400502EAD /* kTBehaviorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCCF2015E13400502EAD /* kTBehaviorDemoTests.m */; };
+		5F1AFCDB2015E13400502EAD /* kTBehaviorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCDA2015E13400502EAD /* kTBehaviorDemoUITests.m */; };
+		5F1AFCEB2015EDA800502EAD /* KTBehaviorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCEA2015EDA800502EAD /* KTBehaviorData.m */; };
+		5F1AFCEE2015EE3800502EAD /* KTBehaviorDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCED2015EE3800502EAD /* KTBehaviorDataManager.m */; };
+		5F1AFCF12015F50700502EAD /* KTBehaviorDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AFCF02015F50700502EAD /* KTBehaviorDataCache.m */; };
+		5FA0DD7D201708DF00FA80CD /* KTBehaviorDataUpLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0DD7C201708DF00FA80CD /* KTBehaviorDataUpLoader.m */; };
+		5FA0DD8020171BD200FA80CD /* KTHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0DD7F20171BD200FA80CD /* KTHook.m */; };
+		5FA0DD8320171E3900FA80CD /* UIViewController+KTHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0DD8220171E3900FA80CD /* UIViewController+KTHook.m */; };
+		5FA0DD862017277A00FA80CD /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0DD852017277A00FA80CD /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F1AFCCC2015E13400502EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1AFCAB2015E13400502EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1AFCB22015E13400502EAD;
+			remoteInfo = kTBehaviorDemo;
+		};
+		5F1AFCD72015E13400502EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1AFCAB2015E13400502EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1AFCB22015E13400502EAD;
+			remoteInfo = kTBehaviorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F0AB0292018505F00530068 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		5F0AB02A2018505F00530068 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		5F0AB02F2018524F00530068 /* NSObject+KTAspectsHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KTAspectsHook.h"; sourceTree = "<group>"; };
+		5F0AB0302018524F00530068 /* NSObject+KTAspectsHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KTAspectsHook.m"; sourceTree = "<group>"; };
+		5F0AB032201869CC00530068 /* KtBehaviorDemo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KtBehaviorDemo.plist; sourceTree = "<group>"; };
+		5F0AB03420186D3900530068 /* VC2View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC2View.h; sourceTree = "<group>"; };
+		5F0AB03520186D3900530068 /* VC2View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC2View.m; sourceTree = "<group>"; };
+		5F1AFCB32015E13400502EAD /* kTBehaviorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kTBehaviorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1AFCB62015E13400502EAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F1AFCB72015E13400502EAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F1AFCB92015E13400502EAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F1AFCBA2015E13400502EAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F1AFCBD2015E13400502EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F1AFCBF2015E13400502EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1AFCC22015E13400502EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F1AFCC42015E13400502EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1AFCC52015E13400502EAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F1AFCCB2015E13400502EAD /* kTBehaviorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kTBehaviorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1AFCCF2015E13400502EAD /* kTBehaviorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kTBehaviorDemoTests.m; sourceTree = "<group>"; };
+		5F1AFCD12015E13400502EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1AFCD62015E13400502EAD /* kTBehaviorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kTBehaviorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1AFCDA2015E13400502EAD /* kTBehaviorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kTBehaviorDemoUITests.m; sourceTree = "<group>"; };
+		5F1AFCDC2015E13400502EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1AFCE92015EDA800502EAD /* KTBehaviorData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTBehaviorData.h; sourceTree = "<group>"; };
+		5F1AFCEA2015EDA800502EAD /* KTBehaviorData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTBehaviorData.m; sourceTree = "<group>"; };
+		5F1AFCEC2015EE3800502EAD /* KTBehaviorDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTBehaviorDataManager.h; sourceTree = "<group>"; };
+		5F1AFCED2015EE3800502EAD /* KTBehaviorDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTBehaviorDataManager.m; sourceTree = "<group>"; };
+		5F1AFCEF2015F50700502EAD /* KTBehaviorDataCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTBehaviorDataCache.h; sourceTree = "<group>"; };
+		5F1AFCF02015F50700502EAD /* KTBehaviorDataCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTBehaviorDataCache.m; sourceTree = "<group>"; };
+		5FA0DD7B201708DF00FA80CD /* KTBehaviorDataUpLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTBehaviorDataUpLoader.h; sourceTree = "<group>"; };
+		5FA0DD7C201708DF00FA80CD /* KTBehaviorDataUpLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTBehaviorDataUpLoader.m; sourceTree = "<group>"; };
+		5FA0DD7E20171BD200FA80CD /* KTHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTHook.h; sourceTree = "<group>"; };
+		5FA0DD7F20171BD200FA80CD /* KTHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHook.m; sourceTree = "<group>"; };
+		5FA0DD8120171E3900FA80CD /* UIViewController+KTHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTHook.h"; sourceTree = "<group>"; };
+		5FA0DD8220171E3900FA80CD /* UIViewController+KTHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KTHook.m"; sourceTree = "<group>"; };
+		5FA0DD842017277A00FA80CD /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		5FA0DD852017277A00FA80CD /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1AFCB02015E13400502EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1AFCC82015E13400502EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1AFCD32015E13400502EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1AFCAA2015E13400502EAD = {
+			isa = PBXGroup;
+			children = (
+				5F1AFCB52015E13400502EAD /* kTBehaviorDemo */,
+				5F1AFCCE2015E13400502EAD /* kTBehaviorDemoTests */,
+				5F1AFCD92015E13400502EAD /* kTBehaviorDemoUITests */,
+				5F1AFCB42015E13400502EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1AFCB42015E13400502EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AFCB32015E13400502EAD /* kTBehaviorDemo.app */,
+				5F1AFCCB2015E13400502EAD /* kTBehaviorDemoTests.xctest */,
+				5F1AFCD62015E13400502EAD /* kTBehaviorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1AFCB52015E13400502EAD /* kTBehaviorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AFCE82015E83700502EAD /* KTBehavior */,
+				5F1AFCB62015E13400502EAD /* AppDelegate.h */,
+				5F1AFCB72015E13400502EAD /* AppDelegate.m */,
+				5F1AFCB92015E13400502EAD /* ViewController.h */,
+				5F1AFCBA2015E13400502EAD /* ViewController.m */,
+				5FA0DD842017277A00FA80CD /* ViewController2.h */,
+				5FA0DD852017277A00FA80CD /* ViewController2.m */,
+				5F0AB03420186D3900530068 /* VC2View.h */,
+				5F0AB03520186D3900530068 /* VC2View.m */,
+				5F1AFCBC2015E13400502EAD /* Main.storyboard */,
+				5F1AFCBF2015E13400502EAD /* Assets.xcassets */,
+				5F1AFCC12015E13400502EAD /* LaunchScreen.storyboard */,
+				5F1AFCC42015E13400502EAD /* Info.plist */,
+				5F1AFCC52015E13400502EAD /* main.m */,
+			);
+			path = kTBehaviorDemo;
+			sourceTree = "<group>";
+		};
+		5F1AFCCE2015E13400502EAD /* kTBehaviorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AFCCF2015E13400502EAD /* kTBehaviorDemoTests.m */,
+				5F1AFCD12015E13400502EAD /* Info.plist */,
+			);
+			path = kTBehaviorDemoTests;
+			sourceTree = "<group>";
+		};
+		5F1AFCD92015E13400502EAD /* kTBehaviorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AFCDA2015E13400502EAD /* kTBehaviorDemoUITests.m */,
+				5F1AFCDC2015E13400502EAD /* Info.plist */,
+			);
+			path = kTBehaviorDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F1AFCE82015E83700502EAD /* KTBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				5F0AB02A2018505F00530068 /* Aspects.h */,
+				5F0AB0292018505F00530068 /* Aspects.m */,
+				5F1AFCE92015EDA800502EAD /* KTBehaviorData.h */,
+				5F1AFCEA2015EDA800502EAD /* KTBehaviorData.m */,
+				5F1AFCEC2015EE3800502EAD /* KTBehaviorDataManager.h */,
+				5F1AFCED2015EE3800502EAD /* KTBehaviorDataManager.m */,
+				5F1AFCEF2015F50700502EAD /* KTBehaviorDataCache.h */,
+				5F1AFCF02015F50700502EAD /* KTBehaviorDataCache.m */,
+				5FA0DD7B201708DF00FA80CD /* KTBehaviorDataUpLoader.h */,
+				5FA0DD7C201708DF00FA80CD /* KTBehaviorDataUpLoader.m */,
+				5FA0DD7E20171BD200FA80CD /* KTHook.h */,
+				5FA0DD7F20171BD200FA80CD /* KTHook.m */,
+				5FA0DD8120171E3900FA80CD /* UIViewController+KTHook.h */,
+				5FA0DD8220171E3900FA80CD /* UIViewController+KTHook.m */,
+				5F0AB02F2018524F00530068 /* NSObject+KTAspectsHook.h */,
+				5F0AB0302018524F00530068 /* NSObject+KTAspectsHook.m */,
+				5F0AB032201869CC00530068 /* KtBehaviorDemo.plist */,
+			);
+			path = KTBehavior;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F1AFCB22015E13400502EAD /* kTBehaviorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1AFCDF2015E13400502EAD /* Build configuration list for PBXNativeTarget "kTBehaviorDemo" */;
+			buildPhases = (
+				5F1AFCAF2015E13400502EAD /* Sources */,
+				5F1AFCB02015E13400502EAD /* Frameworks */,
+				5F1AFCB12015E13400502EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kTBehaviorDemo;
+			productName = kTBehaviorDemo;
+			productReference = 5F1AFCB32015E13400502EAD /* kTBehaviorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F1AFCCA2015E13400502EAD /* kTBehaviorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1AFCE22015E13400502EAD /* Build configuration list for PBXNativeTarget "kTBehaviorDemoTests" */;
+			buildPhases = (
+				5F1AFCC72015E13400502EAD /* Sources */,
+				5F1AFCC82015E13400502EAD /* Frameworks */,
+				5F1AFCC92015E13400502EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1AFCCD2015E13400502EAD /* PBXTargetDependency */,
+			);
+			name = kTBehaviorDemoTests;
+			productName = kTBehaviorDemoTests;
+			productReference = 5F1AFCCB2015E13400502EAD /* kTBehaviorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F1AFCD52015E13400502EAD /* kTBehaviorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1AFCE52015E13400502EAD /* Build configuration list for PBXNativeTarget "kTBehaviorDemoUITests" */;
+			buildPhases = (
+				5F1AFCD22015E13400502EAD /* Sources */,
+				5F1AFCD32015E13400502EAD /* Frameworks */,
+				5F1AFCD42015E13400502EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1AFCD82015E13400502EAD /* PBXTargetDependency */,
+			);
+			name = kTBehaviorDemoUITests;
+			productName = kTBehaviorDemoUITests;
+			productReference = 5F1AFCD62015E13400502EAD /* kTBehaviorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1AFCAB2015E13400502EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "刘嵩野";
+				TargetAttributes = {
+					5F1AFCB22015E13400502EAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5F1AFCCA2015E13400502EAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F1AFCB22015E13400502EAD;
+					};
+					5F1AFCD52015E13400502EAD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F1AFCB22015E13400502EAD;
+					};
+				};
+			};
+			buildConfigurationList = 5F1AFCAE2015E13400502EAD /* Build configuration list for PBXProject "kTBehaviorDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1AFCAA2015E13400502EAD;
+			productRefGroup = 5F1AFCB42015E13400502EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1AFCB22015E13400502EAD /* kTBehaviorDemo */,
+				5F1AFCCA2015E13400502EAD /* kTBehaviorDemoTests */,
+				5F1AFCD52015E13400502EAD /* kTBehaviorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1AFCB12015E13400502EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1AFCC32015E13400502EAD /* LaunchScreen.storyboard in Resources */,
+				5F1AFCC02015E13400502EAD /* Assets.xcassets in Resources */,
+				5F0AB033201869CC00530068 /* KtBehaviorDemo.plist in Resources */,
+				5F1AFCBE2015E13400502EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1AFCC92015E13400502EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1AFCD42015E13400502EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1AFCAF2015E13400502EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1AFCEE2015EE3800502EAD /* KTBehaviorDataManager.m in Sources */,
+				5F0AB0312018524F00530068 /* NSObject+KTAspectsHook.m in Sources */,
+				5F1AFCEB2015EDA800502EAD /* KTBehaviorData.m in Sources */,
+				5F1AFCBB2015E13400502EAD /* ViewController.m in Sources */,
+				5FA0DD8020171BD200FA80CD /* KTHook.m in Sources */,
+				5F1AFCF12015F50700502EAD /* KTBehaviorDataCache.m in Sources */,
+				5F1AFCC62015E13400502EAD /* main.m in Sources */,
+				5F1AFCB82015E13400502EAD /* AppDelegate.m in Sources */,
+				5F0AB02B2018505F00530068 /* Aspects.m in Sources */,
+				5FA0DD862017277A00FA80CD /* ViewController2.m in Sources */,
+				5FA0DD7D201708DF00FA80CD /* KTBehaviorDataUpLoader.m in Sources */,
+				5FA0DD8320171E3900FA80CD /* UIViewController+KTHook.m in Sources */,
+				5F0AB03620186D3900530068 /* VC2View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1AFCC72015E13400502EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1AFCD02015E13400502EAD /* kTBehaviorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1AFCD22015E13400502EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1AFCDB2015E13400502EAD /* kTBehaviorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F1AFCCD2015E13400502EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1AFCB22015E13400502EAD /* kTBehaviorDemo */;
+			targetProxy = 5F1AFCCC2015E13400502EAD /* PBXContainerItemProxy */;
+		};
+		5F1AFCD82015E13400502EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1AFCB22015E13400502EAD /* kTBehaviorDemo */;
+			targetProxy = 5F1AFCD72015E13400502EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F1AFCBC2015E13400502EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1AFCBD2015E13400502EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F1AFCC12015E13400502EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1AFCC22015E13400502EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F1AFCDD2015E13400502EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F1AFCDE2015E13400502EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F1AFCE02015E13400502EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = kTBehaviorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.kTBehaviorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1AFCE12015E13400502EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = kTBehaviorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.kTBehaviorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F1AFCE32015E13400502EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = kTBehaviorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.kTBehaviorDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kTBehaviorDemo.app/kTBehaviorDemo";
+			};
+			name = Debug;
+		};
+		5F1AFCE42015E13400502EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = kTBehaviorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.kTBehaviorDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kTBehaviorDemo.app/kTBehaviorDemo";
+			};
+			name = Release;
+		};
+		5F1AFCE62015E13400502EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = kTBehaviorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.kTBehaviorDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kTBehaviorDemo;
+			};
+			name = Debug;
+		};
+		5F1AFCE72015E13400502EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = kTBehaviorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.kTBehaviorDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kTBehaviorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1AFCAE2015E13400502EAD /* Build configuration list for PBXProject "kTBehaviorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1AFCDD2015E13400502EAD /* Debug */,
+				5F1AFCDE2015E13400502EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1AFCDF2015E13400502EAD /* Build configuration list for PBXNativeTarget "kTBehaviorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1AFCE02015E13400502EAD /* Debug */,
+				5F1AFCE12015E13400502EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1AFCE22015E13400502EAD /* Build configuration list for PBXNativeTarget "kTBehaviorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1AFCE32015E13400502EAD /* Debug */,
+				5F1AFCE42015E13400502EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1AFCE52015E13400502EAD /* Build configuration list for PBXNativeTarget "kTBehaviorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1AFCE62015E13400502EAD /* Debug */,
+				5F1AFCE72015E13400502EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1AFCAB2015E13400502EAD /* Project object */;
+}
